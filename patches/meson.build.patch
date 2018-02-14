@@ -1,0 +1,8 @@
+--- gtk-communitheme/Communitheme/meson.build	2018-02-14 11:41:58.229250069 -0700
++++ meson.build	2018-02-14 11:41:43.277114926 -0700
+@@ -1,4 +1,4 @@
+-communitheme_dir = join_paths(gtk_theme_dir, 'Communitheme')
++communitheme_dir = join_paths(gtk_theme_dir, 'Communitheme-MATE')
+ 
+ # static asset files to copy
+ index_sources = [

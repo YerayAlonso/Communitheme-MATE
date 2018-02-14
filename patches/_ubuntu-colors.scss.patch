@@ -1,0 +1,11 @@
+--- gtk-communitheme/Communitheme/gtk-3.0/_ubuntu-colors.scss	2018-02-14 11:15:14.922166887 -0700
++++ _ubuntu-colors.scss	2018-02-14 11:11:31.652015977 -0700
+@@ -14,7 +14,7 @@
+ $red: #ED3146;
+ $orange: #E95420;
+ $yellow: #F89B0F;
+-$green: #3EB34F;
++$green: #87A752;
+ $blue: #19B6EE;
+ $purple: #762572;
+ 

@@ -1,0 +1,11 @@
+--- gtk-communitheme/Communitheme/gtk-3.0/_colors.scss	2018-02-14 11:15:14.922166887 -0700
++++ _colors.scss	2018-02-14 11:11:36.780060988 -0700
+@@ -9,7 +9,7 @@
+ $text_color: if($variant == 'light', $slate, $silk);
+ //
+ $selected_fg_color: #ffffff;
+-$selected_bg_color: $orange;
++$selected_bg_color: $green;
+ $borders_color: if($variant == 'light', darken($bg_color, 20%), darken($bg_color, 10%));
+ $link_color: $blue;
+ $link_visited_color: if($variant == 'light', darken($link_color, 20%), lighten($link_color, 10%));

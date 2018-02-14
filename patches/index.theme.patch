@@ -1,0 +1,15 @@
+--- gtk-communitheme/Communitheme/index.theme	2018-02-14 11:15:14.922166887 -0700
++++ index.theme	2018-02-14 11:14:02.249427750 -0700
+@@ -1,9 +1,9 @@
+ [X-GNOME-Metatheme]
+-Name=Communitheme
++Name=Communitheme-MATE
+ Type=X-GNOME-Metatheme
+-Comment=Ubuntu community theme
++Comment=Ubuntu community theme, adapted for Ubuntu MATE.
+ Encoding=UTF-8
+-GtkTheme=Communitheme
++GtkTheme=Communitheme-MATE
+ IconTheme=Adwaita
+ CursorTheme=Adwaita
+ CursorSize=24
