@@ -4,6 +4,7 @@ mkdir $HOME/.local/share/themes
 mkdir $HOME/.themes
 
 git clone https://github.com/Ubuntu/gtk-communitheme.git
+git -C gtk-communitheme checkout 1a52b05
 
 for file in patches/*.patch
 do
