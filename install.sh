@@ -1,5 +1,26 @@
 #!/bin/bash
 
+CURRENTFOLDER=${PWD}
+
+printf '\nInstalling Dependencies:'
+apt install git build-essential
+
+printf '\nDownloading, Building, and Installing SassC and LibSass:'
+cd /usr/local/lib/
+git clone https://github.com/sass/sassc.git --branch 3.2.1 --depth 1
+git clone https://github.com/sass/libsass.git --branch 3.2.1 --depth 1
+
+cd /usr/local/lib/sassc/
+export SASS_LIBSASS_PATH="/usr/local/lib/libsass"
+make
+
+cd /usr/local/bin/
+ln -s ../lib/sassc/bin/sassc sassc
+
+cd ${CURRENTFOLDER}
+
+printf '\nDownloading, Building, and Installing Communitheme-MATE:'
+
 mkdir $HOME/.local/share/themes
 mkdir $HOME/.themes
 
