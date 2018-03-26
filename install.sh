@@ -3,7 +3,8 @@
 CURRENTFOLDER=${PWD}
 
 printf '\nInstalling Dependencies:'
-apt install git build-essential
+apt update
+apt install git build-essential meson
 
 printf '\nDownloading, Building, and Installing SassC and LibSass:'
 cd /usr/local/lib/
