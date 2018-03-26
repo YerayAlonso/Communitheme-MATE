@@ -8,8 +8,8 @@ apt install git build-essential meson
 
 printf '\nDownloading, Building, and Installing SassC and LibSass:'
 cd /usr/local/lib/
-git clone https://github.com/sass/sassc.git --branch 3.2.1 --depth 1
-git clone https://github.com/sass/libsass.git --branch 3.2.1 --depth 1
+git clone https://github.com/sass/sassc.git --branch 3.5.0 --depth 1
+git clone https://github.com/sass/libsass.git --branch 3.5.0 --depth 1
 
 cd /usr/local/lib/sassc/
 export SASS_LIBSASS_PATH="/usr/local/lib/libsass"
